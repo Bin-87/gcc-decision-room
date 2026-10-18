@@ -1,0 +1,13 @@
+# Dependency and build output
+node_modules/
+dist/
+
+# Local environment files — never commit secrets
+.env
+.env.*
+!.env.example
+
+# Tooling / OS noise
+.DS_Store
+*.log
+.vite/
